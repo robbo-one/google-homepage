@@ -21,5 +21,16 @@ width: 100%;
 }
 
 .search-form {
-    
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+
 }
