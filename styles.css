@@ -22,12 +22,24 @@ ul {
   padding: 0;
 }
 
-.nav-item {
+.navbar {
     display: inline;
-}
+     text-decoration: none;
 
-.nav-link {
-  text-decoration: none;
+}
+.nav-items-left {
+    float: left;
+    padding: 15px;
+    text-decoration: none;
+}
+.nav-items-right {
+    float: right;
+    padding: 15px;
+    text-decoration: none;
+
+}
+.sign-in-right {
+    
 }
 
 .search-bar {
@@ -53,6 +65,14 @@ ul {
     margin-left: auto;
     margin-right: auto;
 
+}
+.nav-sign-in {
+    background: #1a73e8;
+    border: 1px solid transparent;
+    color:white;
+}
+.nav-link {
+    text-decoration: none;
 }
 .footer {
     background:#f2f2f2;
