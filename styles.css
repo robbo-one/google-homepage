@@ -16,10 +16,6 @@ width: 100%;
   margin-right: auto;
 }
 
-.fart {
-    font-size: 20px;
-}
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -45,8 +41,58 @@ ul {
     height: 44px;
     font-size: 16px;
     border-radius: 25px;
+    border-color: grey;
+    opacity: 40%;
+    border-width: 1px;
     
 }
-.footer-nav {
+
+#maori {
+    width: fit-content;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.footer {
+    background:#f2f2f2;
+    font-family:arial;
+    color:#757575;
+    padding:5px;
+    width: 100%;
+    left:-5px;
     display: inline;
+    bottom: 0;
+    position: fixed;
+    }
+.footer-left {
+    float:left;
+}
+
+.footer-right {
+    float: right;
+}
+
+.buttons {
+    display: block;
+    text-align: center;
+    }
+
+
+button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+
 }
