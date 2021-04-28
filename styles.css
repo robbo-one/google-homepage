@@ -115,13 +115,20 @@ ul {
     font-size: 15px;
     margin-left: auto;
     margin-right: auto;
-
+    margin-top: 15px;
 }
+
+.maori-text {
+    text-decoration: none;
+}
+
 .nav-sign-in {
     background: #1a73e8;
     border: 1px solid transparent;
     color:white;
 }
+
+
 .nav-link {
     text-decoration: none;
     padding: 15px;
