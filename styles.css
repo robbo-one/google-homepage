@@ -124,7 +124,11 @@ ul {
 }
 .nav-link {
     text-decoration: none;
+    padding: 15px;
+    color: #70757a;
+    justify-content: space-between;
 }
+
 .footer {
     background:#f2f2f2;
     font-family:arial;
