@@ -5,15 +5,7 @@ html {
 body {
 background-color: white;
 width: 100%;
-}
-
-.google-logo {
-    height: 92px;
-    width: 272;
-    padding-top: 109px;
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
+overflow-x: hidden;
 }
 
 ul {
@@ -24,7 +16,8 @@ ul {
 
 .navbar {
     display: inline;
-     text-decoration: none;
+    text-decoration: none;
+     
 }
 .nav-items-left {
     float: left;
@@ -42,49 +35,82 @@ ul {
     text-align: center;
     color: black;
     font-size: 14px;
+    
     }
+
+.sign-padding {
+    padding-right:10px;
+    display:block;
+}
 
 .sign-in-right {
     float:right;
     padding: 10;
     text-align: center;
-    
     color: white !important;
     text-decoration: none;
     margin: 0 8px;
+    
 }
 
 .sign-in {
     float: right;
-    color:white;
+    color: white;
     background: #1a73e8;
     align-items: center;
     margin-top: 4px;
+    width: 96px;
+    height: 36px;
+   
 }
 .sign-btn {
+    
     text-decoration: none; 
     color:white;
     margin-top:10px;
-} 
+    
+    } 
  
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 92px;
+    padding-top: 109px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    width: 100%;
+}
 
 
 .search-bar {
-    width:fit-content;
+    width: auto;
+    max-width: 584px;
     margin-left: auto;
     margin-right: auto;
+    align-items: center;
 }
 .search {
     padding-left: 10px;
-    width:482px;
+    width:582px;
     height: 44px;
     font-size: 16px;
     border-radius: 25px;
     border-color: grey;
     opacity: 40%;
     border-width: 1px;
+    margin-left: auto;
+    margin-right: auto;
     
 }
+.buttons {
+    display: block;
+    text-align: center;
+    width:584px;
+    margin-left: auto;
+    margin-right: auto;
+    }
 
 #maori {
     width: fit-content;
@@ -120,10 +146,43 @@ ul {
     float: right;
 }
 
-.buttons {
-    display: block;
+.search1 {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
     text-align: center;
-    }
+    cursor: pointer;
+    user-select: none;
+   }
+
+.lucky {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
 
 
 button {
