@@ -19,28 +19,55 @@ width: 100%;
 ul {
     list-style-type: none;
     margin: 0;
-  padding: 0;
+    padding: 0;
 }
 
 .navbar {
     display: inline;
      text-decoration: none;
-
 }
 .nav-items-left {
     float: left;
     padding: 15px;
     text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 14px;
 }
+
 .nav-items-right {
     float: right;
     padding: 15px;
     text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    }
 
-}
 .sign-in-right {
+    float:right;
+    padding: 10;
+    text-align: center;
     
+    color: white !important;
+    text-decoration: none;
+    margin: 0 8px;
 }
+
+.sign-in {
+    float: right;
+    color:white;
+    background: #1a73e8;
+    align-items: center;
+    margin-top: 4px;
+}
+.sign-btn {
+    text-decoration: none; 
+    color:white;
+    margin-top:10px;
+} 
+ 
+
 
 .search-bar {
     width:fit-content;
