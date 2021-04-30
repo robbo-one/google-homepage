@@ -8,11 +8,6 @@ width: 100%;
 overflow-x: hidden;
 }
 
-.nav-top {
-   
-   
- 
-}
 
 .navbar {
 
@@ -68,7 +63,7 @@ overflow-x: hidden;
    }
    .sign-padding{
        padding-right: 15px; }
-       
+
 .sign-btn {
     
     text-decoration: none; 
