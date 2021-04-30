@@ -65,8 +65,10 @@ overflow-x: hidden;
     margin-top: 4px;
     width: 96px;
     height: 36px;
-   
-}
+   }
+   .sign-padding{
+       padding-right: 15px; }
+       
 .sign-btn {
     
     text-decoration: none; 
