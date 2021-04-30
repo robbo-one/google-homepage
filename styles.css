@@ -8,37 +8,43 @@ width: 100%;
 overflow-x: hidden;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.nav-top {
+   
+   
+ 
 }
 
 .navbar {
-    display: inline;
+
     text-decoration: none;
+    
      
 }
 .nav-items-left {
+   
     float: left;
     padding: 15px;
     text-decoration: none;
     text-align: center;
     color: black;
     font-size: 14px;
+   
 }
 
 .nav-items-right {
+  
     float: right;
     padding: 15px;
     text-decoration: none;
     text-align: center;
     color: black;
     font-size: 14px;
+    
     }
 
     nav {
     padding-right:20px;
+   
 }
 
 .sign-in-right {
@@ -68,6 +74,11 @@ ul {
     margin-top:10px;
     
     } 
+
+.central-search-area {
+    margin:auto;
+    padding-top: auto;
+}
  
 .logo {
     display: flex;
@@ -79,6 +90,7 @@ ul {
     margin-right: auto;
     align-items: center;
     width: 100%;
+    text-align:center;
 }
 
 
@@ -149,10 +161,12 @@ ul {
     }
 .footer-left {
     float:left;
+    font-size: 14px;
 }
 
 .footer-right {
     float: right;
+    font-size: 14px;
 }
 
 .search1 {
